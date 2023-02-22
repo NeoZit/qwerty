@@ -1,82 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230222152143" />
+	<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
+
 <body>
-		<!-- Начало: Данный блок удалять нельзя -->
-		<style>
-			.maketforfigma{
-				flex: 0 0 auto;
-				/*background: #303b44;*/
-				/*background: #5CDB95;*/
-				background: #313a46;
-				font-weight: bold;
-				display: flex;
-			}
-			.maketforfigma img{
-				border-radius: 10px;
-				margin: 4px 0 0 4px;
-			}
-			.maketforfigma p {
-				/*color: #fff;*/
-				/*color: #05386B;*/
-				color: #98a6ad;
-				text-decoration: none;
-				letter-spacing: .01875rem;
-				font-size: .775rem;
-				padding: 0 10px;
-				line-height: 0.70rem;
-			}
+	<!-- Начало: Данный блок удалять нельзя -->
+	<style>
+		.maketforfigma {
+			flex: 0 0 auto;
+			/*background: #303b44;*/
+			/*background: #5CDB95;*/
+			background: #313a46;
+			font-weight: bold;
+			display: flex;
+		}
 
-			.maketforfigma p > a {
-				/*color: #08ff00;*/
-				/*color: #EDF5E1;*/
-				color: #bbe4f0;
-				font-weight: bold;
-			}
-			.maketforfigma p > a:hover {
-				/*color: #ffa001*/
-				/*color: #379683*/
-				color: #ffffff
-			}
+		.maketforfigma img {
+			border-radius: 10px;
+			margin: 4px 0 0 4px;
+		}
 
-			.main{
-				flex: 1 0 auto;
-			}
+		.maketforfigma p {
+			/*color: #fff;*/
+			/*color: #05386B;*/
+			color: #98a6ad;
+			text-decoration: none;
+			letter-spacing: 0.01875rem;
+			font-size: 0.775rem;
+			padding: 0 10px;
+			line-height: 0.7rem;
+		}
 
-			html{
-				height: 100%;
-			}
+		.maketforfigma p>a {
+			/*color: #08ff00;*/
+			/*color: #EDF5E1;*/
+			color: #bbe4f0;
+			font-weight: bold;
+		}
 
-			body{
-				display: flex;
-				flex-direction: column;
-				height: 100%;
-				padding: 0;
-				margin: 0;
-			}
-		</style>
-		<div class="maketforfigma">
-			<a href="https://t.me/s/FigmaToHTML" target="_blank">
-				<img src="logo.png">
-			</a>
-			<div>
-				<p>
-					Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
-				</p>
-				<p>
-					При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
-					<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
-				</p>
+		.maketforfigma p>a:hover {
+			/*color: #ffa001*/
+			/*color: #379683*/
+			color: #ffffff;
+		}
+
+		.main {
+			flex: 1 0 auto;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+	<div class="maketforfigma">
+		<a href="https://t.me/s/FigmaToHTML" target="_blank">
+			<img src="img/logo.png" />
+		</a>
+		<div>
+			<p>
+				Данная верстка, была реализована пользователем в рамках обучающего телеграм канал
+				<a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+			</p>
+			<p>
+				При помощи бота
+				<a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a>
+				пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
+				<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+			</p>
+		</div>
+	</div>
+	<!-- Конец -->
+
+	<div class="main">
+		<!-- <header class="header">
+	<div class="header__container">
+	</div>
+</header> -->
+
+		<header class="header">
+			<div class="header__content">
+				<a href="/" class="logo">
+					<span class="logo__title">QWERy</span>
+				</a>
+				<button class="burger-menu__control"></button>
+				<div class="burger-menu">
+					<div class="burger-menu__content">
+						<nav class="main-nav header__center">
+							<ul class="main-nav__list">
+								<li class="main-nav__item"><a href="#" class="main-nav__link main-nav__link--active">Information</a></li>
+								<li class="main-nav__item"><a href="#" class="main-nav__link">About&nbsp;us</a></li>
+								<li class="main-nav__item"><a href="#" class="main-nav__link">Culture</a></li>
+							</ul>
+						</nav>
+						<label class="search">
+							<div class="search__icon"></div>
+							<input type="text" class="search__form" placeholder="Search" />
+						</label>
+					</div>
+				</div>
+				<div class="cover-space__burger"></div>
 			</div>
-		</div>
-		<!-- Конец -->
+		</header>
 
-		<div class="main">
-			В данном блоке размещается верстка
+		<div class="wrapper">
+			<div class="cover-space"></div>
+			<main class="page">
+				<section class="section section__main">
+					<div class="main-title">
+						<span class="main-title__summary">explore the Nature Beauty</span>
+						<h1 class="main-title__text">
+							Discover
+							<span class="main-title__text_regular"> Wonderful Indonesia</span>
+						</h1>
+					</div>
+					<div class="social-networks">
+						<h3 class="social-networks__title">Follow&nbsp;us</h3>
+						<ul class="social-networks__list">
+							<li class="social-networks__item">
+								<a href="#" class="social-networks__link">
+									<div class="icon__instagram"></div>
+								</a>
+							</li>
+							<li class="social-networks__item">
+								<a href="#" class="social-networks__link">
+									<div class="icon__twitter"></div>
+								</a>
+							</li>
+							<li class="social-networks__item">
+								<a href="#" class="social-networks__link">
+									<div class="icon__facebook"></div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="scroll-action" class="scroll-down">
+						Scroll down
+						<div class="scroll-down__icon icon__arrow_downward"></div>
+					</div>
+				</section>
+				<div id="scroll-to" class="content">
+					<section class="section section-cols">
+						<img src="img/enjoy.jpg" alt="Mountains" class="section-col section-col__image" />
+						<div class="section-col section-col__content">
+							<div class="main-title main-title_small">
+								<span class="main-title__summary">EAST nUSA TENGGARA</span>
+								<h2 class="main-title__text">Have you enjoyed your holiday?</h2>
+							</div>
+							<p>
+								You will be&nbsp;amazed if&nbsp;you take part in&nbsp;this sailing Komodo island tour package.
+								So&nbsp;it&nbsp;is&nbsp;also mandatory for you, besides enjoying Komodo tourism on&nbsp;Komodo Island,
+								you also have to&nbsp;taste the marine tourism. The beautiful waters of&nbsp;Komodo will make you meet
+								many travelers from other countries.
+							</p>
+							<a class="arrow-link" href="#">
+								read more
+								<div class="arrow-link__icon icon__arrow_rightward"></div>
+							</a>
+						</div>
+					</section>
+					<section class="section">
+						<div id="gallery" class="gallery">
+							<div class="gallery__slide" style="background-image: url('img/gallery.jpg')">
+								<div class="gallery__content">
+									<div class="content_small">
+										<div class="main-title main-title_centered main-title_small">
+											<span class="main-title__summary">Bromo</span>
+											<h2 class="main-title__text">Steady your steps, we&nbsp;will climb together!</h2>
+										</div>
+										<p>
+											Enjoying the vast expanse of&nbsp;the sea of ​​​​sand, witnessing the splendor of&nbsp;Mount
+											Semeru that soars into the sky, and gazing at&nbsp;the beauty of&nbsp;the sun moving out
+											of&nbsp;its bed or&nbsp;otherwise enjoying the dim twilight from the Bromo ridge
+											is&nbsp;an&nbsp;unforgettable experience when visiting Bromo.
+										</p>
+										<a class="arrow-link arrow-link_centered" href="#">
+											read more
+											<div class="arrow-link__icon icon__arrow_rightward"></div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="gallery__slide" style="background-image: url('img/gallery.jpg')">
+								<div class="gallery__content">
+									<div class="content_small">
+										<div class="main-title main-title_centered main-title_small">
+											<span class="main-title__summary">Bromo</span>
+											<h2 class="main-title__text">Steady your steps, we&nbsp;will climb together!</h2>
+										</div>
+										<p>
+											Enjoying the vast expanse of&nbsp;the sea of ​​​​sand, witnessing the splendor of&nbsp;Mount
+											Semeru that soars into the sky, and gazing at&nbsp;the beauty of&nbsp;the sun moving out
+											of&nbsp;its bed or&nbsp;otherwise enjoying the dim twilight from the Bromo ridge
+											is&nbsp;an&nbsp;unforgettable experience when visiting Bromo.
+										</p>
+										<a class="arrow-link arrow-link_centered" href="#">
+											read more
+											<div class="arrow-link__icon icon__arrow_rightward"></div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="gallery__slide" style="background-image: url('img/gallery.jpg')">
+								<div class="gallery__content">
+									<div class="content_small">
+										<div class="main-title main-title_centered main-title_small">
+											<span class="main-title__summary">Bromo</span>
+											<h2 class="main-title__text">Steady your steps, we&nbsp;will climb together!</h2>
+										</div>
+										<p>
+											Enjoying the vast expanse of&nbsp;the sea of ​​​​sand, witnessing the splendor of&nbsp;Mount
+											Semeru that soars into the sky, and gazing at&nbsp;the beauty of&nbsp;the sun moving out
+											of&nbsp;its bed or&nbsp;otherwise enjoying the dim twilight from the Bromo ridge
+											is&nbsp;an&nbsp;unforgettable experience when visiting Bromo.
+										</p>
+										<a class="arrow-link arrow-link_centered" href="#">
+											read more
+											<div class="arrow-link__icon icon__arrow_rightward"></div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="gallery__slide" style="background-image: url('img/gallery.jpg')">
+								<div class="gallery__content">
+									<div class="content_small">
+										<div class="main-title main-title_centered main-title_small">
+											<span class="main-title__summary">Bromo</span>
+											<h2 class="main-title__text">Steady your steps, we&nbsp;will climb together!</h2>
+										</div>
+										<p>
+											Enjoying the vast expanse of&nbsp;the sea of ​​​​sand, witnessing the splendor of&nbsp;Mount
+											Semeru that soars into the sky, and gazing at&nbsp;the beauty of&nbsp;the sun moving out
+											of&nbsp;its bed or&nbsp;otherwise enjoying the dim twilight from the Bromo ridge
+											is&nbsp;an&nbsp;unforgettable experience when visiting Bromo.
+										</p>
+										<a class="arrow-link arrow-link_centered" href="#">
+											read more
+											<div class="arrow-link__icon icon__arrow_rightward"></div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="gallery__slide" style="background-image: url('img/gallery.jpg')">
+								<div class="gallery__content">
+									<div class="content_small">
+										<div class="main-title main-title_centered main-title_small">
+											<span class="main-title__summary">Bromo</span>
+											<h2 class="main-title__text">Steady your steps, we&nbsp;will climb together!</h2>
+										</div>
+										<p>
+											Enjoying the vast expanse of&nbsp;the sea of ​​​​sand, witnessing the splendor of&nbsp;Mount
+											Semeru that soars into the sky, and gazing at&nbsp;the beauty of&nbsp;the sun moving out
+											of&nbsp;its bed or&nbsp;otherwise enjoying the dim twilight from the Bromo ridge
+											is&nbsp;an&nbsp;unforgettable experience when visiting Bromo.
+										</p>
+										<a class="arrow-link arrow-link_centered" href="#">
+											read more
+											<div class="arrow-link__icon icon__arrow_rightward"></div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="section section-cols">
+						<div class="section-col section-col__content">
+							<div class="main-title main-title_small">
+								<span class="main-title__summary">INDONESIAN CULTURE</span>
+								<h2 class="main-title__text">Our culture here is&nbsp;very friendly to&nbsp;people</h2>
+							</div>
+							<p>
+								known for his politeness, manners and gentleness. This becomes a&nbsp;characteristic when they mingle
+								with other tribes and become basic traits that are passed down by&nbsp;their ancestors.
+							</p>
+							<a class="arrow-link" href="#">
+								read more
+								<div class="arrow-link__icon icon__arrow_rightward"></div>
+							</a>
+						</div>
+						<img src="img/culture.jpg" alt="Culture" class="section-col section-col__image" />
+					</section>
+					<section class="section-border">
+						<div class="start">
+							<div class="start__title">QWERy</div>
+							<div class="start__content">
+								<h3 class="start__desc">Ready to explore?</h3>
+								<button class="button">Get started</button>
+							</div>
+						</div>
+					</section>
+					<!-- <footer class="footer">
+	<div class="footer__container">
+	</div>
+</footer> -->
+
+					<footer class="footer">
+						<div class="footer__content">
+							<div class="subscribe">
+								<h3 class="subscribe__title">Let&rsquo;s go&nbsp;on&nbsp;vacation, Make your day</h3>
+								<div class="email">
+									<input type="text" class="email__form" placeholder="Email address" /><button class="email__button button">
+										<span class="button__icon icon__right"></span>
+									</button>
+								</div>
+							</div>
+							<div class="menu">
+								<h4 class="menu__title">Services</h4>
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link">Email Marketing</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Campaigns</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Branding</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Offline</a></li>
+								</ul>
+							</div>
+							<div class="menu">
+								<h4 class="menu__title">About</h4>
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link">Our Story</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Benefits</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Team</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Careers</a></li>
+								</ul>
+							</div>
+							<div class="menu">
+								<h4 class="menu__title">Help</h4>
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link">FAQs</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Contact&nbsp;Us</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer__bottom">
+							<div class="footer__terms">
+								<a href="#" class="footer__link">Terms &amp;&nbsp;Conditions</a><a href="#" class="footer__link">Privacy Policy</a>
+							</div>
+							<ul class="social-horizontal">
+								<li class="social-horizontal__item">
+									<a href="#" class="social-horizontal__link">
+										<div class="icon__facebook"></div>
+									</a>
+								</li>
+								<li class="social-horizontal__item">
+									<a href="#" class="social-horizontal__link">
+										<div class="icon__twitter"></div>
+									</a>
+								</li>
+								<li class="social-horizontal__item">
+									<a href="#" class="social-horizontal__link">
+										<div class="icon__instagram"></div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</footer>
+
+				</div>
+			</main>
 		</div>
+		<script src="js/app.min.js?_v=20230222152143"></script>
+	</div>
 </body>
+
 </html>
